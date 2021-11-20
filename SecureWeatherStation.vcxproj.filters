@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{1e46bc3d-51c5-459b-948a-233d9416ae26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sensors">
+      <UniqueIdentifier>{6e190ae5-36db-46b6-9cb3-b22875cf8022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Auth Pattern">
+      <UniqueIdentifier>{303b7340-109d-4b47-8abb-cd45e62e339c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MCV">
+      <UniqueIdentifier>{296cf33f-a63e-411e-a9d3-29d65723c696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Validation">
+      <UniqueIdentifier>{454e8db3-f62a-4270-aecc-5733fa1c5ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Auth Pattern">
+      <UniqueIdentifier>{b268d39e-9a59-4f98-9367-4fb25b1fdc23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logger">
+      <UniqueIdentifier>{48c83f78-4967-4ebb-b084-527a494c5837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MCV">
+      <UniqueIdentifier>{0e77dc33-cb38-433e-ac8c-6e5d00ae59f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sensors">
+      <UniqueIdentifier>{67e1ee32-d596-4411-a302-62533da94ced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Validation">
+      <UniqueIdentifier>{35939a4c-bc13-4603-bb8d-37fdc15bccc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthenticationInfo.cpp">
+      <Filter>Source Files\Auth Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Authenticator.cpp">
+      <Filter>Source Files\Auth Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleLogger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\MCV</Filter>
+    </ClCompile>
+    <ClCompile Include="Humidity.cpp">
+      <Filter>Source Files\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLogger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\MCV</Filter>
+    </ClCompile>
+    <ClCompile Include="ProofID.cpp">
+      <Filter>Source Files\Auth Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="SignedOperations.cpp">
+      <Filter>Source Files\Validation</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp.cpp">
+      <Filter>Source Files\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="UnsignedOperations.cpp">
+      <Filter>Source Files\Validation</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Auth Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files\MCV</Filter>
+    </ClCompile>
+    <ClCompile Include="WindSensor.cpp">
+      <Filter>Source Files\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerDecorator.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FileLogger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="WindSensor.h">
+      <Filter>Header Files\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="Humidity.h">
+      <Filter>Header Files\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="temp.h">
+      <Filter>Header Files\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLogger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthenticationInfo.h">
+      <Filter>Header Files\Auth Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Authenticator.h">
+      <Filter>Header Files\Auth Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="ProofID.h">
+      <Filter>Header Files\Auth Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Auth Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleLogger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\MCV</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\MCV</Filter>
+    </ClInclude>
+    <ClInclude Include="Choice.h">
+      <Filter>Header Files\MCV</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Header Files\MCV</Filter>
+    </ClInclude>
+    <ClInclude Include="SignedOperations.h">
+      <Filter>Header Files\Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="UnsignedOperations.h">
+      <Filter>Header Files\Validation</Filter>
+    </ClInclude>
+    <ClInclude Include="LogChoice.h">
+      <Filter>Header Files\MCV</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorCommands.h">
+      <Filter>Header Files\MCV</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorChoice.h">
+      <Filter>Header Files\MCV</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerDecorator.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ainfoData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="historicData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="userData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="deviceLog.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
