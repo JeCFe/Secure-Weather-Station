@@ -1,0 +1,3 @@
+Humidity configured
+Thermometer configured
+Wind sensor configured
